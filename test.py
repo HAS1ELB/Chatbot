@@ -1,7 +1,5 @@
-import requests
+from huggingface_hub import login
 
-url = "http://localhost:5000/chat"
-payload = {"message": "Bonjour"}
-response = requests.post(url, json=payload)
-
-print(response.json())  # Affiche la réponse du bot
+# Remplacez par votre clé API Hugging Face
+api_key = "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"
+login(api_key)
