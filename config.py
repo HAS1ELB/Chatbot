@@ -1,2 +1,2 @@
 # config.py
-HUGGINGFACE_API_KEY = "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"  # Si nécessaire
+HUGGINGFACE_API_KEY = ""  # Si nécessaire
